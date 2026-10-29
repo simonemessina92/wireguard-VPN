@@ -4,7 +4,7 @@ All notable WireGuard VPN releases are recorded here. Development builds are not
 
 ## [Unreleased]
 
-## [1.0] — not yet released
+## [1.0] — 2026-10-29
 
 First version, derived from HAIBOX WireGuard v6.8.
 

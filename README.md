@@ -14,7 +14,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/simonemessina92/wireguard-VP
 
 The installer downloads the latest Golden release, checks its SHA-256 file and starts the setup menu. Choose **INSTALL + WEB UI**, then open `https://VPS_PUBLIC_IP:65000`. WireGuard uses UDP `443` by default. The first login is `admin` / `password`; you must change that password before setup continues.
 
-Until the first Golden release is published, test the current build on a separate VPS with the development installer:
+Use a separate test VPS for development builds:
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/simonemessina92/wireguard-VPN/develop/install-dev.sh)
@@ -56,7 +56,7 @@ Forwarded unchanged (public port = StreamHub port), from the StreamHub 4.4 netwo
 
 The VPS must have a public IPv4 address, root access, UDP `443` available for WireGuard and TCP `65000` available for the Web UI unless you change those ports.
 
-[Changelog](CHANGELOG.md) · [Release notes](releases/)
+[v1.0 script](https://github.com/simonemessina92/wireguard-VPN/releases/download/v1.0/wireguard-vpn_v1.0.sh) · [SHA-256](https://github.com/simonemessina92/wireguard-VPN/releases/download/v1.0/wireguard-vpn_v1.0.sh.sha256) · [Changelog](CHANGELOG.md) · [Release notes](releases/)
 
 WireGuard is a registered trademark of Jason A. Donenfeld. This project is not affiliated with or endorsed by the WireGuard project.
 
